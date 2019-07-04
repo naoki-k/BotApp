@@ -1,14 +1,13 @@
 class Bot
   enum characters: { mickey: "mickey", minnie: "minnie", pooh: "pooh", ariel: "ariel" }
-  
-  character = YAML.load_file('config/slack.yml')['mickey']
 
   def greet
-    slack_client.ping('なんだい？')
+    character = YAML.load_file('config/slack.yml')['mickey']
+    slack_client(character: character).ping('なんだい？')
   end
 
   # 引数を受け取ってキャラを生成するようにする
-  def slack_client
-    Slack::Notifier.new(MICKEY)
+  def slack_client(character: mickey)
+    Slack::Notifier.new(:character)
   end
 end
