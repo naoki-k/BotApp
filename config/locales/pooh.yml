@@ -1,3 +1,4 @@
 pooh:
-  greet:
-    hello: やあ、ぼくの友達。また会えたね。
+  global:
+    greet:
+      hello: やあ、ぼくの友達。また会えたね。

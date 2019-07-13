@@ -1,3 +1,4 @@
 ariel:
-  greet:
-    hello: きっと、すてきな一日になるはずだわ！
+  global:
+    greet:
+      hello: きっと、すてきな一日になるはずだわ！

@@ -1,3 +1,4 @@
 mickey:
-  greet:
-    hello: ハロー！ ゆめを忘れてないかい？
+  global:
+    greet:
+      hello: ハロー！ ゆめを忘れてないかい？

@@ -1,4 +1,4 @@
 minnie:
-  greet:
-    hello: ごきげんよう！疲れてない？
-    
+  global:
+    greet:
+      hello: ごきげんよう！疲れてない？
